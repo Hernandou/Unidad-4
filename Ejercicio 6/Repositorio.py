@@ -21,10 +21,4 @@ class RespositorioProvincias:
         self.__manejador.deleteProvincia(provincia)
     def grabarDatos(self):
         self.__json.guardarJSONArchivo(self.__manejador.toJSON())
-
-'''json=ObjectEncoder('pacientes.json')
-repo=RespositorioPacientes(json)
-pacient=Paciente("Juan", "Perez", "264515121", "80", "190")
-repo.agregarPaciente(pacient)
-repo.grabarDatos()
-print("Listo")'''
+        
